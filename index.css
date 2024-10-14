@@ -1,6 +1,23 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: aliceblue;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    height: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.scrn{
+    border: 2px solid black;
+    height: 20%;
+    margin-top: 0px;
+}
+.btns{
+    border: 2px solid black;
+    margin-top: 30px;
+    height: 80%;
 }
